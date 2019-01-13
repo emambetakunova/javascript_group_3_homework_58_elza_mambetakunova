@@ -10,12 +10,6 @@ class DemoBuilder extends Component {
                     show={this.state.purchasing}
                     close={this.purchaseCancel}
                 >
-                    <OrderSummary
-                        ingredients={this.state.ingredients}
-                        price={this.state.totalPrice}
-                        purchaseCancel={this.purchaseCancel}
-                        purchaseContinue={this.purchaseContinue}
-                    />
                 </Modal>
             </Fragment>
         )

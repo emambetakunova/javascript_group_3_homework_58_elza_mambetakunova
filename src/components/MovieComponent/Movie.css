@@ -1,0 +1,19 @@
+.MovieWrap {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.MovieName {
+    border: 1px solid #ffbb42;
+    padding: 20px 15px;
+    margin: 5px 5px 5px 0;
+    width: 28%;
+}
+.MovieName h4 {
+    color: #ffbb42;
+    font-size: 20px;
+}
+.MovieName img {
+    width: 100%;
+    height: auto;
+}

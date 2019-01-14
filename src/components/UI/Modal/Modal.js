@@ -8,7 +8,7 @@ const Modal = props => {
         <Fragment>
             <Backdrop
                 show={props.show}
-                onClick={props.close}
+                onClick={props.closed}
             />
             <div
                 className="Modal"
@@ -16,7 +16,11 @@ const Modal = props => {
                     transform: props.show ? 'translateY(0)' : 'translateY(-100vh)',
                     opacity: props.show ? '1' : '0'
                 }}>
+                {props.title}
+                <button onClick={props.closed}>X</button>
+                <hr/>
                 {props.children}
+                <button onClick={props.closed}>Close</button>
             </div>
         </Fragment>
     );

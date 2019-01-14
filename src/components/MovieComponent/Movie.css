@@ -1,7 +1,10 @@
 .MovieWrap {
-    width: 70%;
+    width: 50%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
 }
 .MovieName {
     border: 1px solid #ffbb42;
@@ -16,4 +19,13 @@
 .MovieName img {
     width: 100%;
     height: auto;
+}
+
+.MovieName button {
+    border: 1px solid #ffbb42;
+    background: #ffbb42;
+    color: #000;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 3px;
 }

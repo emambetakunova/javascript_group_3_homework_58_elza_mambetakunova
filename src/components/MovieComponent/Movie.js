@@ -3,7 +3,6 @@ import './Movie.css';
 
 
 const MovieContent = (props) => {
-    console.log(props);
     return (
         <div className="MovieName">
             <h4>{props.name}</h4>

@@ -1,4 +1,7 @@
-
+.BtnWrap {
+    display: flex;
+    justify-content: center;
+}
 .Button {
     background-color: transparent;
     border: none;
@@ -22,4 +25,12 @@
 
 .Danger {
     color: #944317;
+}
+
+.Primary {
+    color: #207cca;
+}
+
+.Warning {
+    color: #ff1a00;
 }

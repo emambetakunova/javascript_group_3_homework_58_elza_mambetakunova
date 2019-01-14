@@ -1,0 +1,43 @@
+.Alert {
+    position: fixed;
+    z-index: 500;
+    background-color: white;
+    width: 30%;
+    border: 1px solid #ffbb42;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px black;
+    padding: 16px;
+    left: 33%;
+    top: 30%;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+}
+.AlertTitle {
+    margin-top: 20px;
+    text-align: center;
+    display: block;
+    font-weight: bold;
+}
+.Success {
+    color: #5C9210;
+}
+
+.Danger {
+    color: #944317;
+}
+
+.Primary {
+    color: #207cca;
+}
+
+.Warning {
+    color: #ff1a00;
+}
+
+.Close {
+    float: right;
+    border: 1px solid #ffbb42;
+    background: #ffbb42;
+    color: #000;
+    border-radius: 3px;
+}

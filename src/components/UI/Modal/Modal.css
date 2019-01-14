@@ -12,6 +12,20 @@
     transition: all 0.3s ease-out;
 }
 
+.Modal button {
+    float: right;
+    border: 1px solid #ffbb42;
+    background: #ffbb42;
+    color: #000;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.Modal hr {
+    margin: 16px;
+}
+
 @media (min-width: 600px) {
     .Modal {
         width: 500px;
